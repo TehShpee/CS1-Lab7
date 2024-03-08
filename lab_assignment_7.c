@@ -39,7 +39,7 @@ void bubbleSort(item array[], int size){
    for (int i = 0; i<size;i++){
     printf("%d: %d\n",array[i].value,array[i].times);
     }
-    printf("Total: %d\n", sumArray(array,9)/2);
+    printf("Total: %d\n", sumArray(array,size)/2);
 }
 
 void selectionSort(item array[], int size){
@@ -59,7 +59,7 @@ void selectionSort(item array[], int size){
    for (int i = 0; i<size;i++){
     printf("%d: %d\n",array[i].value,array[i].times);
     }
-    printf("Total: %d\n", sumArray(array,9)/2);
+    printf("Total: %d\n", sumArray(array,size)/2);
 } 
 
 int main(){
